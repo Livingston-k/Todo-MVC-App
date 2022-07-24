@@ -1,0 +1,24 @@
+{
+    "name": "todo_node_typescript_app",
+    "version": "1.0.0",
+    "description": "Todo_node_typescript_app",
+    "main": "index.js",
+    "scripts": {
+        "dev": "ts-node-dev sc/server.ts"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Livingston-k/Todo_node_typescript_app.git"
+    },
+    "keywords": [],
+    "author": "Kaddu Livingstone",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Livingston-k/Todo_node_typescript_app/issues"
+    },
+    "homepage": "https://github.com/Livingston-k/Todo_node_typescript_app#readme",
+    "devDependencies": {
+        "ts-node-dev": "^2.0.0",
+        "typescript": "^4.7.4"
+    }
+}

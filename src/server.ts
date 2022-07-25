@@ -5,7 +5,7 @@ const app = express()
 const port = 3000
 
 db.sync().then(() => {
-    console.log('Connect to database')
+    console.log('Connected to database')
 })
 
 

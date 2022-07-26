@@ -1,7 +1,7 @@
 {
-    "name": "todo_app-node_typescript",
+    "name": "todo-mvc-app",
     "version": "1.0.0",
-    "description": "Todo_app-node_typescript",
+    "description": "Todo-MVC-App",
     "main": "index.js",
     "scripts": {
         "dev": "ts-node-dev --respawn src/server.ts",
@@ -10,15 +10,15 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Livingston-k/Todo_app-node_typescript.git"
+        "url": "git+https://github.com/Livingston-k/Todo-MVC-App.git"
     },
     "keywords": [],
     "author": "Kaddu Livingstone",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/Livingston-k/Todo_app-node_typescript/issues"
+        "url": "https://github.com/Livingston-k/Todo-MVC-App/issues"
     },
-    "homepage": "https://github.com/Livingston-k/Todo_app-node_typescript#readme",
+    "homepage": "https://github.com/Livingston-k/Todo-MVC-App#readme",
     "devDependencies": {
         "@types/express": "^4.17.13",
         "@types/node": "^18.6.0",

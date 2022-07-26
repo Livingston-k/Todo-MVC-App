@@ -74,7 +74,7 @@ class TodoController {
 
     // WARNING ROUTE
     async alert(req: Request, res: Response) {
-        res.json({ 'msg': 'Use Postman to consume the Todo api', 'create': '/create', 'read': '/read?limit=10', 'show': '/show/id', 'update': '/update/id', 'delete': '/delete/id', })
+        res.json({ 'msg': 'Use Postman to consume the Todo api', 'create': '/api/create', 'read': '/api/read?limit=10', 'show': '/api/show/id', 'update': '/api/update/id', 'delete': '/api/delete/id', })
     }
 }
 

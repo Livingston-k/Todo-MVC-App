@@ -9,7 +9,7 @@ class TodoInstatance extends sequelize_1.Model {
 }
 TodoInstatance.init({
     id: {
-        type: sequelize_1.DataTypes.STRING,
+        type: sequelize_1.DataTypes.UUIDV4,
         primaryKey: true,
         allowNull: false
     },
@@ -26,3 +26,4 @@ TodoInstatance.init({
     sequelize: database_config_1.default,
     tableName: 'todos'
 });
+exports.default = TodoInstatance;

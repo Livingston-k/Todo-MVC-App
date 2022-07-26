@@ -12,6 +12,9 @@ db.sync().then(() => {
 })
 
 // ROUTERS
+app.get('/', (req: Request, res: Response) => {
+    res.json({ 'msg': 'Use Postman to consume the Todo api' })
+})
 app.post('/create', TodoValidator.checkCreateTodo(), async (req: Request, res: Response) => {
     const id = uuidv4()
     try {
